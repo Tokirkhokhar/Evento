@@ -15,9 +15,9 @@ export default function DeleteEvent() {
             </span>
           </th>
           <th>Name</th>
-          <th>Email</th>
-          <th>Address</th>
-          <th>Phone</th>
+          <th>Event</th>
+          <th>Event ID</th>
+          <th>Desc</th>
           <th>Actions</th>
         </tr>
       </thead>
