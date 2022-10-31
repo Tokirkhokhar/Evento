@@ -17,14 +17,13 @@ router.get("/getevent",async(req,res)=>{
       if(err) throw err;
       if(data)
       {
-        res.status(201).send(data);
+        res.status(201).send({ success : true,data});
       }
-  })
-    
+  })   
   
   }
   catch(error){
-    res.status(500).send({message:{error}})    
+    res.status(500).send({ success : false ,message:{error}})    
   }
 })
 
